@@ -1,0 +1,397 @@
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+	
+}  
+   * {
+  box-sizing: border-box;
+}
+   body{
+	   width:100%;
+	   height:100vh;
+	   font-family: 'Bebas Neue', cursive;
+       font-family: 'Fira Sans', sans-serif;
+       font-family: 'Lato', sans-serif;
+	   background-color:black;
+	}
+     
+	#cabecalho {
+   
+    margin-top: 0px ;
+    margin-bottom: 0px ;
+    background-image:linear-gradient(to right,black,black,black, #2a2a2a,#525252,#969696,#9d9d9d,#9d9d9d,#9d9d9d,#969696,#525252, #2a2a2a,black,black ,black);
+   
+   
+}
+
+/*<img src="Ltlogo2.png" width="150" height="150" alt="Ltlogo2">
+				<h1>LOUIS TOMLINSON</h1>*/
+
+			   
+		 
+		 .titulo{ /*utilização de classe*/
+			font-family: futura-pt , sans-serif;
+			display:inline-block;
+			vertical-align:top;
+			color: black;
+			font-size:55px;
+			font-weight:0;
+			letter-spacing:0.07em;/* espaço entre as letras*/
+		 }
+	 
+   #menu{
+	        
+	        /* background-image:linear-gradient(to right, #030303,#040404,#040404,#515151,#040404,#040404,#030303);*/
+			 
+			 background-image:linear-gradient(to right,black,black,black, #2a2a2a,#525252,#969696,#9d9d9d,#9d9d9d,#9d9d9d,#969696,#525252, #2a2a2a,black,black ,black);
+	   
+	    
+			text-align:center;/*centralizar*/
+			
+	         padding:10px;
+			  margin:0px;
+			  
+			
+   }	
+	
+   #menu li{
+	   display:inline;/*linhareta*/
+	   list-style:none;/*tira os marcadores*/
+	   line-height:20px;/*centraliza o menu d acordo co a linha*/
+	   
+	   
+	   
+   }
+	#menu a{
+		text-decoration:none;/*tira o sublinhado*/
+		 color:black;
+		 border:2px solid black;
+		 font-size:15pt;
+	     padding:20px 20px 20px 20px;      
+		 margin-right:50px;
+		 line-height:50px;
+	   	
+		
+	}
+		
+	#menu a:hover{
+		background-color:white;
+		color:black;
+	    
+		
+	}
+	  
+
+	
+
+.buttonClass {
+		font-size:20px;
+		font-family:Verdana;
+		width:140px;
+		height:50px;
+		border-width:3px;
+		color:rgba(246, 238, 238, 1);
+		border-color:rgba(255, 255, 255, 1);
+		font-weight:bold;
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
+		border-bottom-left-radius:5px;
+		border-bottom-right-radius:5px;
+		box-shadow:inset 0px 1px 3px 0px rgba(0, 0, 0, 1);
+		text-shadow:inset 0px -1px 0px rgba(0, 0, 0, 1);
+		background-color:transparent;
+	  }
+        
+     
+     
+		
+      #carrousel{
+	 
+		background-image:linear-gradient(to right,black,black,black, #2a2a2a,#525252,#969696,#9d9d9d,#9d9d9d,#9d9d9d,#969696,#525252, #2a2a2a,black,black ,black);
+	 
+   }
+	   
+	    #ff{
+	background-image:linear-gradient(to left,  #030303,#161012,#371816,#641f20,#771a1b, #901f22,   #be1e20, #be1e20,#901f22,#771a1b,#641f20,#371816,#161012,#030303);
+	 margin:5%;
+   	 display:grid;/*transforma a seção em grade*/
+	 grid-template-columns:100% ;/*coluna*/
+	 grid-gap:0%;/*insere espaço entras as colunas*/
+	 padding-bottom:200px;
+		}
+		#ff p{
+			font-family: 'Kanit', sans-serif;
+			font-size:30px;
+			text-align:center;
+			color:black;
+		}
+     
+		
+	   #ff h1{
+		font-family: 'Bebas Neue', cursive;
+		letter-spacing:0.10em;/* espaço entre as letras*/
+	   font-size:50px;
+	   font-weight:600;
+	   color:black;
+	  text-align:center
+	   }
+	   
+   #conteudo{
+	 background-color:#DCDCDC;
+	 margin:5%;
+   	 display:grid;/*transforma a seção em grade*/
+	 grid-template-columns:100% ;/*coluna*/
+	 grid-gap:0%;/*insere espaço entras as colunas*/
+	 padding-bottom:200px;
+     font-family: 'Kanit', sans-serif;
+	 font-size:20px;
+	 text-align:center;
+	 color:black;
+	
+	  
+   }
+   #conteudo h2{
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing:0.10em;/* espaço entre as letras*/
+   font-size:50px;
+   font-weight:600;
+   color:black;
+  text-align:center
+	   
+   }
+    #walls{
+		background-image:linear-gradient(to left,  #030303,#161012,#371816,#641f20,#771a1b, #901f22,   #be1e20, #be1e20,#901f22,#771a1b,#641f20,#371816,#161012,#030303);
+		margin:5%;
+		padding:7%;
+		font-family: futura-pt , sans-serif;
+	    font-weight:400;
+	     letter-spacing:0.09em;/* espaço entre as letras*/
+		 color:white;
+		 text-align:center;
+		 font-size:30px;
+		
+	  
+		 
+	 }
+	 #walls h2{
+		  font-family: 'Bebas Neue', cursive;
+		   letter-spacing:0.10em;/* espaço entre as letras*/
+		  font-size:50px;
+		  font-weight:600;
+		  color:white;
+		 text-align:center
+	 }
+  
+   
+     #festival{
+		 background-color:;
+		 text-align:center;
+		 font-family: 'Bebas Neue', cursive;
+		 font-weight:200;
+	     letter-spacing:0.07em;/* espaço entre as letras*/
+		 color:white;
+		 font-size:30px;
+		 margin:5%;
+		 padding:7%;
+		 
+	 }
+	
+		
+   #galeria{
+	 background-color:#222433;
+	 padding:7%;
+	 margin:5%;
+	 display:grid;
+	 grid-template-columns:30% 30% 30%;
+	 grid-gap:2%;
+	
+	
+   }
+  
+   #jumbotron{
+	 height: 100vh;
+    margin-top: 0px ;
+    margin-bottom: 0px ;    
+    background-image: url(fotos/tour7.jpg);
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+	background-size: 1200px;
+    opacity: 1;
+    text-align:center;
+	 color:white;
+	
+	 
+	 
+   }
+   #jumbotron p{
+	   font-family: 'Bebas Neue', cursive;
+	   font-size:30px;
+	   color:white;
+	   font-weight:200;
+	   letter-spacing:0.07em;/* espaço entre as letras*/
+	   text-align: center;
+	   
+   }
+   #jumbotron a{
+	   text-decoration:none;
+	   font-size:25px;
+	   font-family: 'Bebas Neue', cursive;
+	   color:;
+	  background-color:;
+	   padding-bottom:10px;
+	   padding-right:25px;
+	   padding-left:25px;
+	   padding-top:10px;
+	   border-radius:5px;
+	   
+   }
+   #jumbotron a:hover{
+	   background-color:;
+	   color:;
+   }
+   #jumbotron h1{
+	         font-family: 'Bebas Neue', cursive;
+             font-family: 'Fira Sans', sans-serif;
+             font-family: 'Lato', sans-serif;
+             display:inline-block;
+			 vertical-align:top;
+			 color:white;
+			 
+   }
+	 .myButton {
+	box-shadow:inset 0px 1px 3px 0px #665d66;
+	background-color:transparent;
+	border-radius:5px;
+	border:2px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Trebuchet MS;
+	font-size:19px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #6b676b;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+  #twitter{
+	  background-color:white;
+	  padding:7%;
+	  margin:5%;
+	  display:grid;/*transforma a seção em grade*/
+	 grid-template-columns:49% 49% ;/*coluna*/
+	 grid-gap:1%;/*e espaço entras as colunas*/
+	 padding-bottom:200px;
+	  
+  }
+   
+   #contato{
+   background-image: url('https://louis-tomlinson.com/wp-content/themes/lt-2022/img/signup-bright.jpg');
+	 display:grid;
+	 grid-template-columns:50% 50%;
+	 text-align:center;
+	 
+   }
+  #formulario{
+	  text-align:center;
+	  
+	 
+
+  }
+  #formulario input{
+	  width:50%;
+	  padding:20px 20px 20px 20px;
+	  background-color:transparent;
+	  color:white;
+	  border: white;
+	  font-family: 'Bebas Neue', cursive;
+
+	  
+
+  }
+  #formulario h2{
+	        font-family: 'Bebas Neue', cursive;
+            font-weight: 400px;
+			font-size: 25px;
+             display:inline-block;
+			 vertical-align:top;
+			 color:white;
+			 letter: spacing 0.80em;/* espaço entre as letras*/
+  }
+   ::placeholder{
+	   color:white;
+   }
+   
+ /* #mapa{
+	        text-align:center;
+	        font-family: 'Bebas Neue', cursive;
+             font-family: 'Fira Sans', sans-serif;
+             font-family: 'Lato', sans-serif;
+             display:inline-block;
+			 vertical-align:top;
+			 color:white;
+			 letter-spacing:0.07em; espaço entre as letras}*/
+			
+
+
+
+			#rede ul{
+				text-align:center;/*centralizar*/
+				padding:0px;
+			   margin:5px;
+			   
+			}
+
+			#rede li{
+	            display:inline;/*linhareta*/
+				list-style:none;/*tira os marcadores*/
+				line-height:20px;/*centraliza o menu d acordo co a linha*/
+				margin-right:20px;
+			  }
+				 
+#rede a{
+	color:#969696;
+}
+
+   #rodape{
+	background-color:black;
+	
+	 display:grid;
+	 grid-template-columns:30% 30% 30%;
+	 grid-gap:2%;
+	 margin:5%;
+	 padding: 2%;
+	
+    }
+ .p_rodape{
+	 
+       font-family: 'Bebas Neue', cursive;
+	   font-size:15pt;
+	   text-align: center;
+	   color:red;
+	   font-weight:bolder;
+	   letter-spacing:0.07em;/* espaço entre as letras*/
+ }
+ 
+.link{
+	color:red;
+	font-family: 'Bebas Neue', cursive;
+	font-size:15pt;
+	font-weight: bolder;
+	text-decoration: none;
+	letter-spacing:0.07em;/* espaço entre as letras*/
+
+}
+	
+
+
+ /*h2>Mapa</h2>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.7281080726!2d-0.24168024584704462!3d51.528771840474214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondres%2C%20Reino%20Unido!5e0!3m2!1spt-BR!2sbr!4v1663335755027!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>*/
